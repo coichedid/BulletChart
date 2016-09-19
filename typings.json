@@ -1,6 +1,8 @@
 {
-  "name": "bullet",
-  "dependencies": {
-    "d3": "registry:npm/d3#3.0.0+20160723033700"
+  "resolution": "main",
+  "tree": {
+    "main": "index.d.ts",
+    "name": "bullet",
+    "type": "typings"
   }
 }
