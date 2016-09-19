@@ -1,6 +1,6 @@
 {
   "name": "bullet",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Package to render a bullet chart based on d3js",
   "main": "index.js",
   "scripts": {
