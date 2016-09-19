@@ -154,33 +154,34 @@ var BulletFactory = function() {
             .remove();
         });
         d3.timer.flush();
+        return g;
     };
 
-  bullet['width'] = function(x) {
-    if (!arguments.length) return width;
-    width = x;
-    return bullet;
-  };
+    bullet['width'] = function(x) {
+        if (!arguments.length) return width;
+        width = x;
+        return bullet;
+    };
 
-  bullet['height'] = function(x) {
-    if (!arguments.length) return height;
-    height = x;
-    return bullet;
-  };
+    bullet['height'] = function(x) {
+        if (!arguments.length) return height;
+        height = x;
+        return bullet;
+    };
 
-  bullet['tickFormat'] = function(x) {
-    if (!arguments.length) return tickFormat;
-    tickFormat = x;
-    return bullet;
-  };
+    bullet['tickFormat'] = function(x) {
+        if (!arguments.length) return tickFormat;
+        tickFormat = x;
+        return bullet;
+    };
 
-  bullet['duration'] = function(x) {
-    if (!arguments.length) return duration;
-    duration = x;
-    return bullet;
-  };
+    bullet['duration'] = function(x) {
+        if (!arguments.length) return duration;
+        duration = x;
+        return bullet;
+    };
 
-  return bullet;
+    return bullet;
 };
 
 function bulletRanges(d) {
