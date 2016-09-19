@@ -14,10 +14,6 @@
 // }
 
 declare namespace bullet {
-    interface BulletFactory {
-        new():Bullet;
-    }
-    
     interface Bullet {
         width(x?:number):any;
         height(y?:number):any;
@@ -25,6 +21,9 @@ declare namespace bullet {
         tickFormat(t?:string):any;
         duration(d?:number):any;
         bullet(g:any):any;
+    }
+    interface BulletFactory {
+        new():Bullet;
     }
     var bullet:BulletFactory;
 }
