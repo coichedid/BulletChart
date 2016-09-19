@@ -26,6 +26,7 @@ declare namespace bullet {
         duration(d?:number):any;
         bullet(g:any):any;
     }
+    var bullet:BulletFactory;
 }
 // declare var bullet:BulletFactory;
 
