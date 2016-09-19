@@ -206,5 +206,5 @@ function bulletWidth(x) {
   };
 }
 
-module.export = BulletFactory;
+module.exports = BulletFactory;
 
